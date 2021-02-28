@@ -37,7 +37,7 @@
         <b-row class="mb-2">
           <b-col class="text-left">
             <h4>The College of William and Mary</h4>
-            <p>2010-2014</p>
+            <p>2010 - 2014</p>
           </b-col>
           <b-col class="text-left">
             <p>BS Computer Science</p>
@@ -46,10 +46,13 @@
         <b-row>
           <b-col class="text-left">
             <h4>Thomas Jefferson High School for Science and Technology</h4>
-            <p>2006-2010</p>
+            <p>2006 - 2010</p>
           </b-col>
           <b-col class="text-left">
-            <p>An inflated ego, and questionable self-esteem</p>
+            <p>
+              It was high school, but a small world. Listed in case you, dear
+              reader, and I have this in common.
+            </p>
           </b-col>
         </b-row>
       </b-col>
@@ -67,11 +70,12 @@
           <b-col class="text-left">
             <p><strong>Senior Software Engineer</strong></p>
             <p>
-              Some great description about what I did here. Some great
-              description about what I did here. Some great description about
-              what I did here. Some great description about what I did here.
-              Some great description about what I did here. Some great
-              description about what I did here.
+              I develop software in support of Federal Aviation Administration,
+              and international civil aviation research efforts. I am a
+              generalist, and may use 2-3 different languages and frameworks on
+              a daily basis. I've lead small teams of developers to write
+              individual applications, and I helped lead a project to improve
+              the software development processes for a group of 15+ engineers.
             </p>
           </b-col>
         </b-row>
@@ -84,11 +88,10 @@
           <b-col class="text-left">
             <p><strong>Software Engineer</strong></p>
             <p>
-              Some great description about what I did here. Some great
-              description about what I did here. Some great description about
-              what I did here. Some great description about what I did here.
-              Some great description about what I did here. Some great
-              description about what I did here.
+              Wrote code for 6-DOF flight simulators in C++. Learned about the
+              discipline needed to write software in "the real world" including
+              writing design documents, holding code reviews, and testing so you
+              don't trash a multi-million dollar piece of hardware.
             </p>
           </b-col>
         </b-row>
