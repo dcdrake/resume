@@ -7,7 +7,7 @@
             <img
               alt="Dylan picture"
               class="profile-picture"
-              style="height: 200px; width: 275px; border-radius: 10%"
+              style="height: 225px; width: 300px; border-radius: 10%"
               src="../assets/dylan_shuttle_photo.jpg"
             />
           </b-col>
@@ -96,7 +96,7 @@
     </b-row>
     <b-row class="first-container justify-content-center">
       <b-col class="col-lg-9">
-        <div class="section-header text-left">Abilties</div>
+        <div class="section-header text-left">Skills and Knowledge</div>
         <hr />
         <b-row class="mb-4">
           <b-col class="text-left">
