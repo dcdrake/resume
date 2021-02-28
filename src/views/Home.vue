@@ -16,25 +16,71 @@
         competent using the software I develop.
       </p>
     </b-row>
-    <b-row class="first-container">
-      <b-col>
-        <div class="section-header">Education</div>
-        <div class="lead pb-2">
-          The College of William and Mary - BS Computer Science
-        </div>
-        <div class="lead">
-          Thomas Jefferson High School for Science and Technology
-        </div>
+    <b-row class="first-container justify-content-center">
+      <b-col class="col-lg-9">
+        <div class="section-header text-left">Education</div>
+        <hr />
+        <b-row class="mb-2">
+          <b-col class="text-left">
+            <h4>The College of William and Mary</h4>
+            <p>2010-2014</p>
+          </b-col>
+          <b-col class="text-left">
+            <p>BS Computer Science</p>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col class="text-left">
+            <h4>Thomas Jefferson High School for Science and Technology</h4>
+            <p>2006-2010</p>
+          </b-col>
+          <b-col class="text-left">
+            <p>An inflated ego, and questionable self-esteem</p>
+          </b-col>
+        </b-row>
       </b-col>
     </b-row>
-    <b-row class="second-container">
-      <b-col>
-        <div class="section-header">Career</div>
-        <div class="lead pb-2">Senior Software Engineer - MITRE</div>
-        <div class="lead">Software Engineer - NASA Langley Research Center</div>
+    <b-row class="second-container justify-content-center">
+      <b-col class="col-lg-9">
+        <div class="section-header text-left">Career</div>
+        <hr />
+        <b-row class="mb-2">
+          <b-col class="text-left">
+            <h4>MITRE</h4>
+            <p>McLean, VA</p>
+            <p>2016-Current</p>
+          </b-col>
+          <b-col class="text-left">
+            <p><strong>Senior Software Engineer</strong></p>
+            <p>
+              Some great description about what I did here. Some great
+              description about what I did here. Some great description about
+              what I did here. Some great description about what I did here.
+              Some great description about what I did here. Some great
+              description about what I did here.
+            </p>
+          </b-col>
+        </b-row>
+        <b-row class="mb-2">
+          <b-col class="text-left">
+            <h4>Unisys Corporation</h4>
+            <p>Hampton, VA - NASA Langley Research Center</p>
+            <p>2016-Current</p>
+          </b-col>
+          <b-col class="text-left">
+            <p><strong>Software Engineer</strong></p>
+            <p>
+              Some great description about what I did here. Some great
+              description about what I did here. Some great description about
+              what I did here. Some great description about what I did here.
+              Some great description about what I did here. Some great
+              description about what I did here.
+            </p>
+          </b-col>
+        </b-row>
       </b-col>
     </b-row>
-    <b-row class="first-container">
+    <!-- <b-row class="first-container">
       <b-col>
         <div class="section-header">Abilities</div>
         <b-row style="padding-bottom: 60px">
@@ -85,7 +131,7 @@
           dylan.c.drake at gmail
         </div>
       </b-col>
-    </b-row>
+    </b-row> -->
   </b-container>
 </template>
 
@@ -105,10 +151,10 @@ h1 {
 }
 
 hr {
-  border: dotted#f2cc8f 6px;
+  border: solid #f2cc8f 2px;
   border-bottom: none;
-  width: 6%;
-  margin: 20px auto 20px auto;
+  width: 30%;
+  margin: 5px auto 20px 0;
 }
 
 .section-header {
