@@ -17,8 +17,8 @@
             <p><b-icon icon="geo-alt-fill"></b-icon> Richmond, VA</p>
 
             <p>
-              I write code, and I'm motivated by making people feel smart, and
-              look competent using the software I develop.
+              I write code and I'm motivated by making people look smart, and
+              feel confident using the software I develop.
             </p>
             <b-icon icon="envelope-fill"></b-icon>
             <a class="mr-3" href="mailto:dylan.c.drake@gmail.com"> Email</a>
