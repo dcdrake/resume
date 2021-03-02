@@ -52,40 +52,31 @@
       <b-col class="col-lg-9">
         <div class="section-header text-left">Career</div>
         <hr />
-        <b-row class="mb-2">
-          <b-col class="text-left">
-            <h4>MITRE</h4>
-            <p>McLean, VA</p>
-            <p>2016 - Current</p>
-          </b-col>
-          <b-col class="text-left">
-            <p><strong>Senior Software Engineer</strong></p>
-            <p>
-              I develop software in support of Federal Aviation Administration,
-              and international civil aviation research efforts. I am a
-              generalist, and may use 2-3 different languages and frameworks on
-              a daily basis. I've lead small teams of developers to write
-              individual applications, and I helped lead a project to improve
-              the software development processes for a group of 15+ engineers.
-            </p>
-          </b-col>
-        </b-row>
-        <b-row class="mb-2">
-          <b-col class="text-left">
-            <h4>Unisys Corporation</h4>
-            <p>Hampton, VA - NASA Langley Research Center</p>
-            <p>2014 - 2016</p>
-          </b-col>
-          <b-col class="text-left">
-            <p><strong>Software Engineer</strong></p>
-            <p>
-              Wrote code for 6-DOF flight simulators in C++. Learned about the
-              discipline needed to write software in "the real world" including
+        <job-entry
+          :companyName="'MITRE'"
+          :city="'McLean'"
+          :state="'VA'"
+          :startYear="2016"
+          :endYear="'Current'"
+          :jobTitle="'Senior Software Engineer'"
+          description="I develop software in support of Federal Aviation Administration, 
+          and international civil aviation research efforts. I am a generalist, and may 
+          use 2-3 different languages and frameworks on a daily basis. I've lead small 
+          teams of developers to write individual applications, and I helped lead a project 
+          to improve the software development processes for a group of 15+ engineers."
+        ></job-entry>
+        <job-entry
+          :companyName="'Unisys'"
+          :city="'Hampton'"
+          :state="'VA - NASA Langley Research Center'"
+          :startYear="2014"
+          :endYear="2016"
+          :jobTitle="'Software Engineer'"
+          description="Wrote code for 6-DOF flight simulators in C++. Learned about the
+              discipline needed to write software in 'the real world' including
               writing design documents, holding code reviews, and testing so you
-              don't trash a multi-million dollar piece of hardware.
-            </p>
-          </b-col>
-        </b-row>
+              don't trash a multi-million dollar piece of hardware."
+        ></job-entry>
       </b-col>
     </b-row>
     <b-row class="first-container justify-content-center">
@@ -141,11 +132,13 @@
 <script lang="ts">
 import Vue from "vue";
 import SchoolEntry from "@/components/SchoolEntry.vue";
+import JobEntry from "@/components/JobEntry.vue";
 
 export default Vue.extend({
   name: "Home",
 
   components: {
+    JobEntry,
     SchoolEntry,
   },
 });
