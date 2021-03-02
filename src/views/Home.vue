@@ -34,27 +34,18 @@
       <b-col class="col-lg-9">
         <div class="section-header text-left">Education</div>
         <hr />
-        <b-row class="mb-2">
-          <b-col class="text-left">
-            <h4>The College of William and Mary</h4>
-            <p>2010 - 2014</p>
-          </b-col>
-          <b-col class="text-left">
-            <p>BS Computer Science</p>
-          </b-col>
-        </b-row>
-        <b-row>
-          <b-col class="text-left">
-            <h4>Thomas Jefferson High School for Science and Technology</h4>
-            <p>2006 - 2010</p>
-          </b-col>
-          <b-col class="text-left">
-            <p>
-              It was high school, but a small world. Listed in case you, dear
-              reader, and I have this in common.
-            </p>
-          </b-col>
-        </b-row>
+        <school-entry
+          :schoolName="'The College of William and Mary'"
+          :startYear="2010"
+          :endYear="2014"
+          :degree="'BS Computer Science'"
+        ></school-entry>
+        <school-entry
+          :schoolName="'Thomas Jefferson High School for Science and Technology'"
+          :startYear="2006"
+          :endYear="2010"
+          :degree="'It was high school, but a small world. Listed in case you, dear reader, and I have this in common.'"
+        ></school-entry>
       </b-col>
     </b-row>
     <b-row class="second-container justify-content-center">
@@ -149,11 +140,14 @@
 
 <script lang="ts">
 import Vue from "vue";
+import SchoolEntry from "@/components/SchoolEntry.vue";
 
 export default Vue.extend({
   name: "Home",
 
-  components: {},
+  components: {
+    SchoolEntry,
+  },
 });
 </script>
 
