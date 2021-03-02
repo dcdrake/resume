@@ -68,7 +68,7 @@
         <job-entry
           :companyName="'Unisys'"
           :city="'Hampton'"
-          :state="'VA - NASA Langley Research Center.'"
+          :state="'VA - NASA Langley Research Center'"
           :startYear="2014"
           :endYear="2016"
           :jobTitle="'Software Engineer'"
