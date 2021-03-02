@@ -41,14 +41,10 @@
           :degree="'BS Computer Science'"
         ></school-entry>
         <school-entry
-          :schoolName="
-            'Thomas Jefferson High School for Science and Technology'
-          "
+          :schoolName="'Thomas Jefferson High School for Science and Technology'"
           :startYear="2006"
           :endYear="2010"
-          :degree="
-            'It was high school, but a small world. Listed in case you, dear reader, and I have this in common.'
-          "
+          :degree="'It was high school, but a small world. Listed in case you, dear reader, and I have this in common.'"
         ></school-entry>
       </b-col>
     </b-row>
@@ -72,7 +68,7 @@
         <job-entry
           :companyName="'Unisys'"
           :city="'Hampton'"
-          :state="'VA - NASA Langley Research Center'"
+          :state="'VA -- NASA Langley Research Center'"
           :startYear="2014"
           :endYear="2016"
           :jobTitle="'Software Engineer'"
@@ -139,7 +135,7 @@ import SchoolEntry from "@/components/SchoolEntry.vue";
 
 export default {
   name: "Home",
-  components: { JobEntry, SchoolEntry }
+  components: { JobEntry, SchoolEntry },
 };
 </script>
 
