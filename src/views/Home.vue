@@ -26,6 +26,8 @@
             <a class="mr-3" href="https://www.linkedin.com/in/dylancdrake/">
               LinkedIn</a
             >
+            <b-icon icon="github"></b-icon>
+            <a class="mr-3" href="https://github.com/dcdrake/resume"> GitHub</a>
           </b-col>
         </b-row>
       </b-col>
@@ -112,6 +114,9 @@
         </b-row>
       </b-col>
     </b-row>
+    <b-link href="https://github.com/dcdrake/resume"
+      >See the code behind this page</b-link
+    >
   </b-container>
 </template>
 
