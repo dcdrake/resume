@@ -44,7 +44,7 @@
           :schoolName="'Thomas Jefferson High School for Science and Technology'"
           :startYear="2006"
           :endYear="2010"
-          :degree="'It was high school, but a small world. Listed in case you, dear reader, and I have this in common.'"
+          :degree="''"
         ></school-entry>
       </b-col>
     </b-row>
@@ -53,29 +53,15 @@
         <div class="section-header text-left">Career</div>
         <hr />
         <job-entry
-          :companyName="'MITRE'"
-          :city="'McLean'"
-          :state="'VA'"
-          :startYear="2016"
-          :endYear="'Current'"
-          :jobTitle="'Senior Software Engineer'"
-          description="I develop software in support of Federal Aviation Administration, 
-          and international civil aviation research efforts. I am a generalist, and may 
-          use 2-3 different languages and frameworks on a daily basis. I've lead small 
-          teams of developers to write individual applications, and I helped lead a project 
-          to improve the software development processes for a group of 15+ engineers."
-        ></job-entry>
-        <job-entry
-          :companyName="'Unisys'"
-          :city="'Hampton'"
-          :state="'VA - NASA Langley Research Center'"
-          :startYear="2014"
-          :endYear="2016"
-          :jobTitle="'Software Engineer'"
-          description="Wrote code for 6-DOF flight simulators in C++. Learned about the
-              discipline needed to write software in 'the real world' including
-              writing design documents, holding code reviews, and testing so you
-              don't trash a multi-million dollar piece of hardware."
+          v-for="(entry, i) in jobs"
+          :key="i"
+          :companyName="entry.companyName"
+          :city="entry.city"
+          :state="entry.state"
+          :startYear="entry.startYear"
+          :endYear="entry.endYear"
+          :jobTitle="entry.jobTitle"
+          :description="entry.description"
         ></job-entry>
       </b-col>
     </b-row>
@@ -87,7 +73,6 @@
           <b-col class="text-left">
             <h4>Web</h4>
             <div>VueJS</div>
-            <div>AngularJS</div>
             <div>NodeJS</div>
             <div>Flask</div>
           </b-col>
@@ -102,7 +87,7 @@
         </b-row>
         <b-row class="mb-4">
           <b-col class="text-left">
-            <h4>Revision Control</h4>
+            <h4>RCS</h4>
             <div>git</div>
             <div>svn</div>
           </b-col>
@@ -120,8 +105,9 @@
             <div>Jupyter</div>
           </b-col>
           <b-col class="text-left">
-            <h4>Containerization</h4>
+            <h4>Containers</h4>
             <div>Docker</div>
+            <div>Podman</div>
           </b-col>
         </b-row>
       </b-col>
@@ -136,6 +122,42 @@ import SchoolEntry from "@/components/SchoolEntry.vue";
 export default {
   name: "Home",
   components: { JobEntry, SchoolEntry },
+  data() {
+    return {
+      jobs: [
+        {
+          companyName: "MITRE",
+          city: "McLean",
+          state: "VA",
+          startYear: "2016",
+          endYear: "Current",
+          jobTitle: "Senior Software Engineer",
+          description: [
+            "Led creation of software development guidelines for 15 engineers",
+            "Sped up post-experiment data analysis by a factor of 10",
+            "Reduced downtime of core lab software, and project code from weekly to semi-monthly by implementing automated testing",
+            "Eliminated months of duplicated work by using scrum workflows",
+            "Substituted web frameworks for C++ GUIs, reducing time to develop prototype displays from weeks to days",
+            "Mentored (and was mentored by) junior engineers",
+          ],
+        },
+        {
+          companyName: "Unisys",
+          city: "Hampton",
+          state: "VA - NASA Langley Research Center",
+          startYear: "2014",
+          endYear: "2016",
+          jobTitle: "Software Engineer",
+          description: [
+            "Learned how to present simulation concepts, and technologies to groups with differing levels of technical expertise",
+            "Learned how to present a design review",
+            "Learned how to participate in a code review",
+            "Learned how to integrate external software into internal codebase",
+          ],
+        },
+      ],
+    };
+  },
 };
 </script>
 

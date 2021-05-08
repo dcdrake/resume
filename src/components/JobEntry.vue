@@ -9,9 +9,9 @@
       <p>
         <strong> {{ jobTitle }}</strong>
       </p>
-      <p>
-        {{ description }}
-      </p>
+      <ul>
+        <li v-for="(bullet, i) in description" :key="i">{{ bullet }}</li>
+      </ul>
     </b-col>
   </b-row>
 </template>
@@ -28,9 +28,9 @@ export default Vue.extend({
     "startYear",
     "endYear",
     "jobTitle",
-    "description"
+    "description",
   ],
-  components: {}
+  components: {},
 });
 </script>
 

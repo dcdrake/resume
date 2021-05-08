@@ -5,7 +5,9 @@
       <p>{{ startYear }} - {{ endYear }}</p>
     </b-col>
     <b-col class="text-left">
-      <p>{{ degree }}</p>
+      <p>
+        <strong>{{ degree }}</strong>
+      </p>
     </b-col>
   </b-row>
 </template>
@@ -16,7 +18,7 @@ import Vue from "vue";
 export default Vue.extend({
   name: "SchoolEntry",
   props: ["schoolName", "startYear", "endYear", "degree"],
-  components: {}
+  components: {},
 });
 </script>
 
