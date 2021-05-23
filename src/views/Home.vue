@@ -17,8 +17,9 @@
             <p><b-icon icon="geo-alt-fill"></b-icon> Richmond, VA</p>
 
             <p>
-              I write code, and I'm motivated by making people look smart, and
-              feel confident using the software I create.
+              I enjoy writing clean code. I aspire to build effective,
+              respectful teams. I'm motivated by making people look smart, and
+              feel confident using the products I create.
             </p>
             <b-icon icon="envelope-fill"></b-icon>
             <a class="mr-3" href="mailto:dylan.c.drake@gmail.com"> Email</a>
@@ -73,12 +74,6 @@
         <hr />
         <b-row class="mb-4">
           <b-col class="text-left">
-            <h4>Web</h4>
-            <div>VueJS</div>
-            <div>NodeJS</div>
-            <div>Flask</div>
-          </b-col>
-          <b-col class="text-left">
             <h4>Languages</h4>
             <div>C++</div>
             <div>Python</div>
@@ -86,12 +81,18 @@
             <div>Java</div>
             <div>Kotlin</div>
           </b-col>
+          <b-col class="text-left">
+            <h4>Web Frameworks</h4>
+            <div>Flask</div>
+            <div>NodeJS</div>
+            <div>Spring Boot</div>
+            <div>VueJS</div>
+          </b-col>
         </b-row>
         <b-row class="mb-4">
           <b-col class="text-left">
             <h4>RCS</h4>
             <div>git</div>
-            <div>svn</div>
           </b-col>
           <b-col class="text-left">
             <h4>Databases</h4>
@@ -101,10 +102,11 @@
         </b-row>
         <b-row class="mb-4">
           <b-col class="text-left">
-            <h4>Tools</h4>
+            <h4>Software</h4>
             <div>Atlassian</div>
             <div>GitLab</div>
             <div>Jupyter</div>
+            <div>Pandas</div>
           </b-col>
           <b-col class="text-left">
             <h4>Containers</h4>
@@ -140,9 +142,9 @@ export default {
           description: [
             "Led creation of software development guidelines for 15 engineers",
             "Sped up post-experiment data analysis by a factor of 10",
-            "Reduced downtime of core lab software, and project code from weekly to semi-monthly by implementing automated testing",
+            "Reduced downtime of core lab software by implementing automated testing",
             "Eliminated months of duplicated work by using scrum workflows",
-            "Substituted web frameworks for C++ GUIs, reducing time to develop prototype displays from weeks to days",
+            "Reduced time to develop prototype displays from weeks to days",
             "Mentored (and was mentored by) junior engineers",
           ],
         },
