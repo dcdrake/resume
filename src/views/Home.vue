@@ -70,7 +70,7 @@
     </b-row>
     <b-row class="first-container justify-content-center">
       <b-col class="col-lg-9">
-        <div class="section-header text-left">Skills and Knowledge</div>
+        <div class="section-header text-left">Skills</div>
         <hr />
         <b-row class="mb-4">
           <b-col class="text-left">
@@ -112,6 +112,21 @@
             <h4>Containers</h4>
             <div>Docker</div>
             <div>Podman</div>
+          </b-col>
+        </b-row>
+      </b-col>
+    </b-row>
+    <b-row class="second-container justify-content-center">
+      <b-col class="col-lg-9">
+        <div class="section-header text-left">Domain Experience</div>
+        <hr />
+        <b-row class="mb-4">
+          <b-col class="text-left">
+            <ul>
+              <li>Simulation</li>
+              <li>Data Engineering/Analysis</li>
+              <li>Civil Aviation</li>
+            </ul>
           </b-col>
         </b-row>
       </b-col>
