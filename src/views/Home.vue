@@ -14,7 +14,7 @@
           <b-col class="text-left">
             <h1>Dylan Drake</h1>
             <hr />
-            <p><b-icon icon="geo-alt-fill"></b-icon> Richmond, VA</p>
+            <p><b-icon icon="geo-alt-fill"></b-icon> Washington D.C.</p>
 
             <p>
               I enjoy writing clean code. I aspire to build effective,
