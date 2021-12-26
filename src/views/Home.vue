@@ -102,16 +102,27 @@
         </b-row>
         <b-row class="mb-4">
           <b-col class="text-left">
-            <h4>Software</h4>
+            <h4>Hosting Software</h4>
             <div>Atlassian</div>
             <div>GitLab</div>
-            <div>Jupyter</div>
-            <div>Pandas</div>
+            <div>GitHub</div>
           </b-col>
           <b-col class="text-left">
             <h4>Containers</h4>
             <div>Docker</div>
             <div>Podman</div>
+          </b-col>
+        </b-row>
+        <b-row class="mb-4">
+          <b-col class="text-left">
+            <h4>Automation</h4>
+            <div>Drone</div>
+            <div>Concourse</div>
+          </b-col>
+          <b-col class="text-left">
+            <h4>Analysis</h4>
+            <div>Jupyter</div>
+            <div>Pandas</div>
           </b-col>
         </b-row>
       </b-col>
